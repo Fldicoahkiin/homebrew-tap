@@ -18,14 +18,14 @@ class SteamCloudFileManager < Formula
   end
 
   def install
-    # 调试：列出当前目录所有文件
-    puts "Current directory contents:"
-    puts Dir["*"]
-    puts "Recursive search for .app:"
-    puts Dir["**/*.app"]
+    # 调试：列出当前目录所有文件详情
+    puts "Debug: Recursive file listing:"
+    system "ls", "-R", "."
 
     # 动态查找 app 名称
     app_paths = Dir["**/*.app"]
+    puts "Debug: Found app paths: #{app_paths}"
+    
     raise "No .app found in #{Dir.pwd}" if app_paths.empty?
     
     app_path = app_paths.first

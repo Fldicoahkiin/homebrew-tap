@@ -2,8 +2,8 @@ cask "steam-cloud-file-manager" do
   arch arm: "aarch64", intel: "x86_64"
 
   version "0.9.6"
-  sha256 arm:   "0e8586695110fe9c4239a9595745f5c9e85f740b699b3ca681e1a4139a75c500",
-         intel: "00effd6d50c853441119681e896615b4768d1c62274ca3d4fc1989cdc0dde902"
+  sha256 arm:   "44dbcf302849dce64e787c3a9ed757231eba564c36c54802084aa72f862fa8fe",
+         intel: "944ef4063d2479d3b70d64357b418f8dc2eb6ee9ec212b381c6208f425351b71"
 
   url "https://github.com/Fldicoahkiin/SteamCloudFileManager/releases/download/v#{version}/SteamCloudFileManager-#{version}-macos-#{arch}.dmg"
   name "Steam Cloud File Manager"

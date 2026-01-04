@@ -10,10 +10,10 @@ class SteamCloudFileManager < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/Fldicoahkiin/SteamCloudFileManager/releases/download/v0.9.6/SteamCloudFileManager-0.9.6-macos-aarch64.tar.gz"
-      sha256 "29035e83db3ebf343fde5de6b52ac10277d6974dc5da161fa355500c465bf481"
+      sha256 "05b4fce4fbd6b962c6dac7d3ace1fed70fe181388f64e4b1ecf1c030827452e8"
     else
       url "https://github.com/Fldicoahkiin/SteamCloudFileManager/releases/download/v0.9.6/SteamCloudFileManager-0.9.6-macos-x86_64.tar.gz"
-      sha256 "38c80a416163aa9d72319cf91c12b1f4ecea97b9dd58adcf42f5b98e213b7622"
+      sha256 "26c17ce312e67c6c264c6232523f9d1dc0aa801a537b11602885dbada0498e9d"
     end
   end
 

@@ -4,16 +4,16 @@
 class SteamCloudFileManager < Formula
   desc "Steam云文件管理器 - Steam Cloud File Manager"
   homepage "https://github.com/Fldicoahkiin/SteamCloudFileManager"
-  version "1.3.0"
+  version "1.3.1"
   license "GPL-3.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Fldicoahkiin/SteamCloudFileManager/releases/download/v1.3.0/SteamCloudFileManager-1.3.0-macos-aarch64.tar.gz"
-      sha256 "f0ca591a43edf03c35a971ca406d6ca5c07b248e9d8f97ceac622ec24f095049"
+      url "https://github.com/Fldicoahkiin/SteamCloudFileManager/releases/download/v1.3.1/SteamCloudFileManager-1.3.1-macos-aarch64.tar.gz"
+      sha256 "23488b51ca522d3e341e4710628f74d82fc7ded75f18964e077bccf4a2d295f7"
     else
-      url "https://github.com/Fldicoahkiin/SteamCloudFileManager/releases/download/v1.3.0/SteamCloudFileManager-1.3.0-macos-x86_64.tar.gz"
-      sha256 "469935012084063123f5da46eb2e2640e6ab04ea40e4e75f369b61c717ba0ce0"
+      url "https://github.com/Fldicoahkiin/SteamCloudFileManager/releases/download/v1.3.1/SteamCloudFileManager-1.3.1-macos-x86_64.tar.gz"
+      sha256 "6452b5c148a36777c661e87caf930452a5f7195abc24db4007f60f0b76d76e00"
     end
   end
 

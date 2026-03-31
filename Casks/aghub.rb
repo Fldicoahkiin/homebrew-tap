@@ -7,7 +7,7 @@ cask "aghub" do
 
   url "https://github.com/AkaraChen/aghub/releases/download/v#{version}/aghub_#{version}_#{arch}.dmg"
   name "aghub"
-  desc "AI coding agent configuration management tool"
+  desc "AI coding agent configuration management tool (Desktop App)"
   homepage "https://github.com/AkaraChen/aghub"
 
   app "aghub.app"

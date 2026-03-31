@@ -15,6 +15,7 @@ brew tap fldicoahkiin/tap
 | Software | Type | Description | Install Command |
 |----------|------|-------------|-----------------|
 | [**Aghub**](https://github.com/AkaraChen/aghub) | Cask | AI coding agent configuration management tool (Desktop App) | `brew install --cask aghub` |
+| [**Aghub**](https://github.com/AkaraChen/aghub) | Formula | CLI binary for Aghub agent management | `brew install aghub-cli` |
 | [**Steam Cloud File Manager**](https://github.com/Fldicoahkiin/SteamCloudFileManager) | Formula | Graphical File Manager for Steam Cloud | `brew install steam-cloud-file-manager` |
 
 ---
@@ -23,11 +24,16 @@ brew tap fldicoahkiin/tap
 
 ### 1. Aghub
 
-[Aghub](https://github.com/AkaraChen/aghub) provides a unified experience to configure and manage your AI coding agents, skills, and MCP servers via a graphical desktop interface.
+[Aghub](https://github.com/AkaraChen/aghub) provides a unified experience to configure and manage your AI coding agents, skills, and MCP servers.
 
-**To install the Desktop App:**
+**To install the Desktop App (.app):**
 ```bash
 brew install --cask aghub
+```
+
+**To install the CLI (`aghub-cli`) only:**
+```bash
+brew install aghub-cli
 ```
 
 ---

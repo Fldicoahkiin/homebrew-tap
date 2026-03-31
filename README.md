@@ -1,6 +1,6 @@
 # Homebrew Tap (Fldicoahkiin)
 
-Welcome to my personal [Homebrew](https://brew.sh/) tap. Here you will find formulae and casks for my open-source projects and utilities.
+Welcome to my personal [Homebrew](https://brew.sh/) tap. Here you will find casks and formulae for my open-source projects.
 
 ## Installation
 
@@ -15,25 +15,19 @@ brew tap fldicoahkiin/tap
 | Software | Type | Description | Install Command |
 |----------|------|-------------|-----------------|
 | [**Aghub**](https://github.com/AkaraChen/aghub) | Cask | AI coding agent configuration management tool (Desktop App) | `brew install --cask aghub` |
-| [**agentctl**](https://github.com/AkaraChen/aghub) | Formula | CLI binary for Aghub agent management | `brew install agentctl` |
 | [**Steam Cloud File Manager**](https://github.com/Fldicoahkiin/SteamCloudFileManager) | Formula | Graphical File Manager for Steam Cloud | `brew install steam-cloud-file-manager` |
 
 ---
 
 ## Detailed Usage
 
-### 1. Aghub & agentctl
+### 1. Aghub
 
-[Aghub](https://github.com/AkaraChen/aghub) provides a unified experience to configure and manage your AI coding agents, skills, and MCP servers.
+[Aghub](https://github.com/AkaraChen/aghub) provides a unified experience to configure and manage your AI coding agents, skills, and MCP servers via a graphical desktop interface.
 
 **To install the Desktop App:**
 ```bash
 brew install --cask aghub
-```
-
-**To install the CLI (`agentctl`) only:**
-```bash
-brew install agentctl
 ```
 
 ---

@@ -1,9 +1,9 @@
 cask "aghub" do
   arch arm: "aarch64", intel: "x64"
 
-  version "1.0.2"
-  sha256 arm:   "f5d7f0a5cf8563080d0ad68d3fa528d9d350840cb11630f702f9938952b1147f",
-         intel: "ac87d6c433f3ff675e53b985554d352601e376c2a90afec6addc7e77796b179d"
+  version "1.0.3"
+  sha256 arm:   "74824beafb5ffe23404f1c7de70a0e7101370b830f38dc477a93e2ef3ffe07a3",
+         intel: "885c3975d9fc02cbbb693ed31a667826d8eb18f6dc14f4d96f12ec484351f5ee"
 
   url "https://github.com/AkaraChen/aghub/releases/download/v#{version}/aghub_#{version}_#{arch}.dmg"
   name "aghub"

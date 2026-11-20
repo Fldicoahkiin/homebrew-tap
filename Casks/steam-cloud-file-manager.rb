@@ -1,10 +1,10 @@
 cask("steam-cloud-file-manager") do
 	arch(arm: "aarch64", intel: "x86_64")
 
-	version("1.3.7")
+	version("1.3.8")
 	sha256(
-		arm: "cd968c11341c9f357c041bcb0ea04375f26d434e1a312ee3b05146659116c1e9",
-		intel: "e3a567dde8fe05dd2805a9d2bf79a0cbacaca7ea02dcf7951d81b26c3760c3d4"
+		arm: "d2c4d600c4e26e1a0a7c0190d53c85707d7f34cc7b33ef755fd551949f5bccc9",
+		intel: "3d1362155d18f8f3ba916903bb9bbd28d1c9aea325167e315faeb09c845d61db"
 	)
 
 	url(
